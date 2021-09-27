@@ -1,0 +1,40 @@
+:root {
+  --primary-dark: #23303d;
+  --primary-white: #ffffff;
+}
+
+body {
+  color: var(--primary-white);
+  background-color: var(--primary-dark);
+  font-family: "PT Mono", monospace;
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#check-number {
+  display: block;
+  margin-top: 1.5rem;
+  margin: auto;
+  background: transparent;
+  color: var(--primary-white);
+  border-color: medium;
+  border-color: black;
+  border-radius: 10%;
+  padding: 1rem;
+}
